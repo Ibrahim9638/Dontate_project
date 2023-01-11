@@ -2,43 +2,47 @@
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* header section styles */
 .header{
-    background-image: url('images/donation13.jpg');
+    background-image: url('../images/donation13.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .header-content{
 
-    padding: 175px 307px;
+    padding: 195px 320px;
     text-align: center;
 }
-.header-title{
-    font-size: 57px;
-    font-weight: 700;
-    line-height: 70px;
-    margin-bottom: 20px;
-    color: white;
+.header-title {
+	font-size: 68px;
+	font-weight: 700;
+	line-height: 70px;
+	margin-bottom: 20px;
+	color: white;
 }
-.header-description{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28px;
-    margin-bottom: 40px;
-    color: white;
+.header-description {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	margin-bottom: 40px;
+	color: white;
+	text-align: center;
+	padding: 0 79px;
 }
 .btn {
-    background: orangered;
+	background: orangered;
 	color: #f1f1f1;
 	font-size: 18px;
-	padding: 15px;
+	padding: 19px;
 	border-radius: 6px;
-    text-align: center;
-    margin: 0 auto;
-    width: 130px;
+	text-align: center;
+	margin: 0 auto;
+	width: 146px;
+	font-weight: 400;
 }
 
 /* main section styles */
@@ -72,4 +76,89 @@
 }
 .highlights{
     border: 2px solid orangered;
+}
+
+/* donate plan section styles */
+
+.donate-plan-section{
+    text-align: center;
+}
+.section-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.section-description-1{
+    padding: 0 375px;
+    font-size: 18px;
+	color: #7D7D7D;
+    margin-bottom: 30px
+}
+.plan-content{
+    display: flex;
+    gap: 20px;
+    padding: 0 160px;
+
+}
+.plan-content h2, p{
+    margin: 30px 0;
+}
+.plan-content p{
+    color: #7D7D7D;
+}
+.plan-content-details-1 {
+	background-color: #EDF5F6;
+	padding: 60px 25px;
+    border-radius: 7px;
+}
+.plan-content-details-2{
+    background-color: #FFEEEE;
+    padding: 60px 25px;
+    border-radius: 7px;
+}
+.plan-content-details-3{
+    background-color: #FFF4D6;
+    padding: 60px 25px;
+    border-radius: 7px;  
+}
+
+
+/* depend section styles */
+
+.depend-container {
+	display: grid;
+	grid-template-columns: repeat(2, 500px);
+	row-gap: 80px;
+	column-gap: 80px;
+	padding: 0 160px;
+	margin-top: 130px;
+}
+.depend-title img{
+    width: 100%;
+    width: 456px;
+    height: 477px;
+    border-radius: 5px;
+}
+.depend-title h2 {
+	font-size: 42px;
+	font-weight: 700;
+}
+.depend-title p {
+	color: #7D7D7D;
+	font-size: 19px;
+	margin-bottom: 36px;
+	line-height: 20px;
+	text-align: justify;
+}
+.btn-1 {
+	background: orangered;
+	color: #f1f1f1;
+	font-size: 20px;
+	padding: 20px;
+	border-radius: 6px;
+	text-align: center;
+	margin: 0 auto;
+	width: 220px;
+	font-weight: 700;
+	border: none;
 }
